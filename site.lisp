@@ -21,5 +21,11 @@ Def Fizzbuzz
    otherwise ();
 
 For each in Range 1 to 100 (Print Fizzbuzz)")
+(para
+(text "Some other smaller projects of mine are:")
+(unordered-list
+  (link "An Emoji APL dialect" "https://www.dyalog.com/blog/2022/04/dyalog-version-18-4-1/")
+  (link "A terrible, terrible web browser" "https://github.com/stavromulabeta/ersatz")
+  (link "A morally dubious garbage collector" "https://github.com/stavromulabeta/chaotic-evil-gc")))
 )
 (exit)
