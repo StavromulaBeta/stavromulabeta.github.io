@@ -67,5 +67,5 @@
 (defun mono (text)
   (format nil "<span class=\"mono\">~a</span>" text))
 
-(defun image (url)
-  (format nil "<img src=\"~a\">" url))
+(defun image (url &optional (width 50))
+  (format nil "<img src=\"~a\" width=~a%>" url width))

@@ -7,7 +7,7 @@
 (right-align (text "- xkcd"))
 (large-header "Anyway, hi.")
 (para (text "You've reached the website for Finn Barber (Stavromulabeta), physics student at Oxford University and hobbyist programmer. I also play the tuba."))
-(image "image.jpg")
+(image "image.jpg" 30)
 (para (text "Other than not failing my degree, I'm also working on the " (link "Cognate programming language" "https://cognate-lang.github.io")", which I urge you to check out. I'm including a syntax example to show off my hacked-together static site generator:"))
 (code 'cognate
 "~~ Fizzbuzz in Cognate
